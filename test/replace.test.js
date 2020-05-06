@@ -17,11 +17,3 @@ test('Array length is 1 or more', () => {
   expect(() => {replace({"before": [], "after": []})}).toThrow();
   expect(() => {replace({"before": ['[test]'], "after": []})}).toThrow();
 });
-
-test('Replace pattern test', () => {
-  expect(postcss(replace({'before': ['[test]'], 'after': ['^']})).process('h1{}').css)
-    .toBe('h1{}');
-
-  expect(postcss(replace({'before': ['[test]'], 'after': ['^']})).process('[test]h1{}').css)
-    .toBe('^h1{}');
-});

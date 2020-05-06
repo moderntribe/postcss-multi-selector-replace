@@ -1,12 +1,11 @@
 {
-  "name": "postcss-selector-replace",
-  "version": "1.0.2",
-  "description": "selector replasement",
+  "name": "@moderntribe/postcss-multi-selector-replace",
+  "version": "1.0.0",
+  "description": "PostCSS plugin for selector replacement.",
   "keywords": [
     "css",
     "postcss",
-    "postcss-plugin",
-    "Xamarin"
+    "postcss-plugin"
   ],
   "main": "index.js",
   "scripts": {
@@ -21,15 +20,27 @@
     "email": "itaoyuta@gmail.com",
     "url": "http://itaoyuta.hatenablog.com/"
   },
-  "repository" : { 
+  "contributors": [
+    {
+      "name": "Samuel Estok",
+      "email": "drone@faction23.com",
+      "url": "https://tri.be/"
+    },
+    {
+      "name": "David Ellenwood",
+      "email": "davee@tri.be",
+      "url": "https://tri.be/"
+    }
+  ],
+  "repository" : {
     "type" : "git",
-    "url" : "https://github.com/itaoyuta/postcss-selector-replace/"
+    "url" : "https://github.com/moderntribe/postcss-multi-selector-replace"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itaoyuta/postcss-selector-replace/issues"
+    "url": "https://github.com/moderntribe/postcss-multi-selector-replace/issues"
   },
-  "homepage": "http://itaoyuta.hatenablog.com/",
+  "homepage": "https://tri.be/",
   "devDependencies": {
     "jest": "^22.4.3"
   },
